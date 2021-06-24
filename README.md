@@ -22,7 +22,7 @@ The game of life has an infinite grid but for the purpose of this implementation
   - input : x,y coordinates of the cell for which we want to find the neighbour count, source generation grid's 2D array
   - output : number of alive neighbours for this cell
   
-### Main
+### GameOfLifeRunner
 The runner class for this game application. Here I have initialized a grid with fixed height & width. I have set up three patterns : one glider & two stable patterns which do not glide across the grid.
 
 I have injected the pattern picked & ran 4 generations on the game grid instance.
